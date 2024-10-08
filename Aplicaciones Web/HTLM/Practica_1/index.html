@@ -26,6 +26,18 @@
     <li><a href="categoria-tecnologia.html">Tecnologia</a></li>
     <li><a href="categoria-libros">Libros recomendados</a></li>
 </ul>
+    <h3>Contactos</h3>
+    <form action="enviar_comentario.php" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
 
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="mensaje">Mnesaje:</label><br>
+        <textarea name="mensaje" id="mensaje"></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
